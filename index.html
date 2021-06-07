@@ -27,246 +27,257 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="images/icons/logo.png" alt="Panda Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icons/logo.png" alt="Panda Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#shoes">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#backpack">Backpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Carousel -->
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>Mi LED TV 4A Pro 32</h1>
+                                <p>This is the best tv in the world for people who just want to waste time in front of
+                                    tv.
+                                    The quality of the tv is super good.
+                                </p>
+                                <h1 class="price">$1200</h1>
+                                <button class="buy-now-button">BUY NOW</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="TV Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front
+                                    of headphone.
+                                    The quality of the headphone is super good.
+                                </p>
+                                <h1 class="price">$420</h1>
+                                <button class="buy-now-button">BUY NOW</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100"
+                                    alt="Headphone Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1>X-Box for your living room</h1>
+                                <p>This is the best x-box in the world for people who just want to waste time in front
+                                    of
+                                    x-box.
+                                    The quality of the x-box is super good.
+                                </p>
+                                <h1 class="price">$600</h1>
+                                <button class="buy-now-button">BUY NOW</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="X-Box Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#shoes">Shoes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#backpack">Backpack</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </nav>
-    </div>
-
-    <!-- Carousel -->
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <h1>Mi LED TV 4A Pro 32</h1>
-                            <p>This is the best tv in the world for people who just want to waste time in front of tv.
-                                The quality of the tv is super good.
-                            </p>
-                            <h1 class="price">$1200</h1>
-                            <button class="buy-now-button">BUY NOW</button>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="TV Image">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <h1>Cool Dude Headphone</h1>
-                            <p>This is the best headphone in the world for people who just want to waste time in front
-                                of headphone.
-                                The quality of the headphone is super good.
-                            </p>
-                            <h1 class="price">$420</h1>
-                            <button class="buy-now-button">BUY NOW</button>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="Headphone Image">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <h1>X-Box for your living room</h1>
-                            <p>This is the best x-box in the world for people who just want to waste time in front of
-                                x-box.
-                                The quality of the x-box is super good.
-                            </p>
-                            <h1 class="price">$600</h1>
-                            <button class="buy-now-button">BUY NOW</button>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="X-Box Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
 
-    <!-- Categories -->
-    <div class="container categories">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col col-md-12 col-lg-4">
-                <div class="card h-100 cat1">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h1>Watch</h1>
-                            <img class="img-fluid" src="images/categories/watch.png" alt="Watch Image">
+        <!-- Categories -->
+        <div class="container categories">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col col-md-12 col-lg-4">
+                    <div class="card h-100 cat1">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h1>Watch</h1>
+                                <img class="img-fluid" src="images/categories/watch.png" alt="Watch Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col col-md-12 col-lg-4">
-                <div class=" card h-100 cat2">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h1>Bag</h1>
-                            <img class="img-fluid" src="images/categories/bag.png" alt="Bag Image">
+                <div class="col col-md-12 col-lg-4">
+                    <div class=" card h-100 cat2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h1>Bag</h1>
+                                <img class="img-fluid" src="images/categories/bag.png" alt="Bag Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col col-md-12 col-lg-4">
-                <div class=" card h-100 cat3">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h1>Shoes</h1>
-                            <img class="img-fluid" src="images/categories/shoes.png" alt="Shoes Image">
+                <div class="col col-md-12 col-lg-4">
+                    <div class=" card h-100 cat3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h1>Shoes</h1>
+                                <img class="img-fluid" src="images/categories/shoes.png" alt="Shoes Image">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Shoes -->
-    <div class="container shoes" id="shoes">
-        <h3>Shoes</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="Shoe Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Supply 350</h5>
-                        <p class="card-text">This shoes comes with a herringbone pattern and a solid rubber, which adds
-                            to the comfort and support of users.</p>
-                        <h5>$120</h5>
-                    </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="Shoe Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Nike 320</h5>
-                        <p class="card-text">This shoes comes with a herringbone pattern and a solid
-                            rubber, which adds
-                            to the comfort and support of users.</p>
-                        <h5>$320</h5>
-                    </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
+        <!-- Shoes -->
+        <div class="container shoes" id="shoes">
+            <h3>Shoes</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="Shoe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">This shoes comes with a herringbone pattern and a solid rubber, which
+                                adds
+                                to the comfort and support of users.</p>
+                            <h5>$120</h5>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="Shoe Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Red Max</h5>
-                        <p class="card-text">This shoes comes with a herringbone pattern and a solid
-                            rubber, which adds
-                            to the comfort and support of users.</p>
-                        <h5>$350</h5>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="Shoe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 320</h5>
+                            <p class="card-text">This shoes comes with a herringbone pattern and a solid
+                                rubber, which adds
+                                to the comfort and support of users.</p>
+                            <h5>$320</h5>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="Shoe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Max</h5>
+                            <p class="card-text">This shoes comes with a herringbone pattern and a solid
+                                rubber, which adds
+                                to the comfort and support of users.</p>
+                            <h5>$350</h5>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Backpack -->
-    <div class="container" id="backpack">
-        <h3>Backpack</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/bags/bag-1.png" class="card-img-top" alt="Backpack Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Red Backpack</h5>
-                        <h5>$125</h5>
-                        <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/bags/bag-2.png" class="card-img-top" alt="Backpack Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Blue Backpack</h5>
-                        <h5>$320</h5>
-                        <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
+        <!-- Backpack -->
+        <div class="container" id="backpack">
+            <h3>Backpack</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="Backpack Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Backpack</h5>
+                            <h5>$125</h5>
+                            <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/bags/bag-3.png" class="card-img-top" alt="Backpack Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Black Backpack</h5>
-                        <h5>$400</h5>
-                        <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="Backpack Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Backpack</h5>
+                            <h5>$320</h5>
+                            <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <button class="buy-now-button">BUY NOW >></button>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="Backpack Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Backpack</h5>
+                            <h5>$400</h5>
+                            <p class="card-text">This backpack comes with a herringbone pattern and a solid.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button">BUY NOW >></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Contact -->
-    <div class="container contact d-flex justify-content-center align-items-center orange-bg" id="contact">
-        <div>
-            <h3>LET'S STAY IN TOUCH</h3>
-            <h6>Get updates on sales, specials and more</h6>
-            <input type="text" class="form-control" placeholder="Enter your email">
-            <button class="buy-now-button mt-1">Submit</button>
+        <!-- Contact -->
+        <div class="container contact d-flex justify-content-center align-items-center orange-bg" id="contact">
+            <div>
+                <h3>LET'S STAY IN TOUCH</h3>
+                <h6>Get updates on sales, specials and more</h6>
+                <input type="text" class="form-control" placeholder="Enter your email">
+                <button class="buy-now-button mt-1">Submit</button>
+            </div>
         </div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="text-center">
