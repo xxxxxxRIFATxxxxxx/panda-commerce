@@ -1,6 +1,6 @@
 /* Common CSS */
 body {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -14,6 +14,10 @@ body {
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+.buy-now-button:disabled {
+    background-image: linear-gradient(to bottom, #f5a4c4 0%, #fc6aa2 100%);
 }
 
 .orange-bg {
